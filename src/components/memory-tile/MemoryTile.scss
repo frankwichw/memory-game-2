@@ -1,0 +1,10 @@
+.memory-tile {
+    background-color: rosybrown;
+    width: 16.666%;
+
+    &:after {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+    }
+}
